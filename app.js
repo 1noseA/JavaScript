@@ -1,4 +1,9 @@
-alert(2+3);
-alert(3-2);
-alert(2*3);
-alert(10/2);
+var alertString;
+alertString = addString("WebCamp");
+
+alert(alertString);
+
+function addString(strA){
+	var addStr = "Hello" + strA;
+	return addStr;
+}
